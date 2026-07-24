@@ -37,3 +37,10 @@ with zipfile.ZipFile(zip_path, "r") as zip_ref:
 # META   "language": "python",
 # META   "language_group": "synapse_pyspark"
 # META }
+
+# METADATA ********************
+
+# META {
+# META   "language": "python",
+# META   "language_group": "synapse_pyspark"
+# META }
