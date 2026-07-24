@@ -154,6 +154,20 @@
                 "value": "Automatic"
               }
             ]
+          },
+          {
+            "name": "SaleAmount",
+            "dataType": "decimal",
+            "sourceColumn": "SaleAmount",
+            "sourceProviderType": "decimal",
+            "sourceLineageTag": "SaleAmount",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
           }
         ],
         "partitions": [
