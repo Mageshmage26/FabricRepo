@@ -168,6 +168,8 @@ deltaTable.alias("silver") \
 }) \
 .execute()
 
+
+
 display(df)
 
 # METADATA ********************
