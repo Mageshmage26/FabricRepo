@@ -171,7 +171,7 @@ deltaTable.alias("silver") \
 
 
 display(df)
-#I made some changes here
+
 
 # METADATA ********************
 
