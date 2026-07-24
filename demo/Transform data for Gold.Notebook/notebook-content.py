@@ -406,6 +406,9 @@ deltaTable.alias('gold') \
  ) \
  .execute()
 
+
+
+#adding some coments
 # METADATA ********************
 
 # META {
