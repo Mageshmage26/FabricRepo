@@ -21,7 +21,7 @@
                 }
               },
               "externalReferences": {
-                "connection": "2678a466-d7af-41ec-adc7-fd78b202abc9"
+                "connection": "64f4e133-7eaa-4b15-bfb1-1ea3a571639b"
               },
               "annotations": []
             }
@@ -29,7 +29,7 @@
           "sink": {
             "type": "BinarySink",
             "storeSettings": {
-              "type": "LakehouseWriteSettings"
+              "type": "AzureBlobStorageWriteSettings"
             },
             "datasetSettings": {
               "type": "Binary",
@@ -153,7 +153,7 @@
           "secureInput": false,
           "secureOutput": false
         },
-        "name": "SliverLayer",
+        "name": "SliverLayer4",
         "dependsOn": [
           {
             "activity": "Delete data1",
@@ -176,10 +176,10 @@
           "secureInput": false,
           "secureOutput": false
         },
-        "name": "GoldLayer",
+        "name": "GoldLayer1",
         "dependsOn": [
           {
-            "activity": "SliverLayer",
+            "activity": "SliverLayer4",
             "dependencyConditions": [
               "Completed"
             ]
